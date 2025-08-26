@@ -1,0 +1,18 @@
+//numberOfAnts = 300
+//antSpeed = 200
+
+//environmentCellSize = 20
+//numberOfAnts = 200
+//pheromoneEvaporationRate = 100
+//pheromoneDepositRate = 600
+
+//homePheromoneDepositRate = 900
+//foodPheromoneDepositRate = 500
+//homePheromoneEvaporationRate = 1000
+//foodPheromoneEvaporationRate = 1000
+
+//environmentCellSize = 180o
+//numberOfAnts = 200
+
+//numberOfAnts = 200
+//antSpeed = 20
