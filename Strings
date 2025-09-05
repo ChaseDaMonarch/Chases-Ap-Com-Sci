@@ -1,0 +1,177 @@
+let heightInCentimeters = 7817
+//: To declare a string constant, you put text between quotation marks like this:
+let favoriteBook = "The Sun Also Rises"
+
+let traditionalGreeting = "Hello, world!"
+/*:
+The declared string values also appear in the results sidebar. 👉
+
+ - Experiment: Practice by declaring `favoriteMovie` and `favoriteSong` string constants for your favorite movie and song:
+ */
+// Declare a favoriteMovie Lucy
+
+// Declare a favoriteSong all of me
+
+let englishGreeting = "Hello, World!"
+
+let chineseGreeting = "你好，世界!"
+
+let spanishGreeting = "¡Hola Mundo!"
+
+let russianGreeting = "Привет мир!"
+
+let japaneseGreeting = "こんにちは世界!"
+//: Of course, programmers around the world speak different languages. In Swift, they can use Unicode in names as well as in strings:
+// Constant name in Chinese that means 'English Greeting'
+let 英语问候 = "Hello, World!"
+
+// Constant name in French that means 'English Greeting'
+let salutationAnglais = "Hello, World!"
+/*:
+Emoji characters are also defined in Unicode, so you can include emoji in strings.\
+(On the Mac, press Command-Control-Space to bring up an emoji picker.)
+ */
+let welcomingPhrase = "Welcome! 😀"
+let fruitSalad = "🍓🍏🍒🍐🍇🍉🥭🥥🍊"
+print ("Cheese")
+print ("Leave")
+print ("Make it rain")
+
+//: Move on to the next page to see how to put strings together.
+
+//: [Previous](@previous)  |  page 5 of 18  |  [Next: Combining Strings](@next)
+
+// Declare a firstName constant
+let firstName = "Chase"
+
+// Declare a lastName constant
+let lastName = "Check"
+
+// Combine the strings into a fullName constant
+let fullName = "Chase Check"
+
+// Combine your full name with likesYourPostMessage
+let likesYourPostMesage = "Chase Check"
+
+/*:
+Next, find out how combining strings can get complicated.
+
+[Previous](@previous)  |  page 6 of 18  |  [Next: Fill in the Blanks](@next)
+ */
+
+let spelledOutNumber = "seven"
+let meal = "breakFast"
+let aliceQuotation = "Why, sometimes I’ve believed as many as \(spelledOutNumber) impossible things before \(meal)!"
+
+let goalieName = "Alison"
+let firstHalfSaves = 3
+let secondHalfSaves = 6
+let overtimeSaves = 2
+let goalieReportString = "At the game yesterday, \(goalieName) had \(firstHalfSaves) saves in the first half, \(secondHalfSaves) in the second half and \(overtimeSaves) saves in overtime, for a total of \(firstHalfSaves + secondHalfSaves + overtimeSaves) saves."
+/*:
+ - Experiment: People have been playing fill-in-the-blank games for a long time. You can create a basic version of this kind of game in the playground:
+   - Make up a short fill-in-the-blank story, or use the one below.
+   - Create a string or number constant for every blank.
+   - Use string interpolation to fill in the blanks in the story.
+
+    Sample story: “Today was a big day for <name>. They had finally saved up <number> dollars and were going to buy a <adjective> <noun>. They went to the <noun> <place> feeling very <positive emotion>. But then they felt <negative emotion>. They were all out of <noun>!”
+ */
+// Add your version of the story below
+let studentName = "Bennit"
+let homeWorkPages = 3
+let Lover = "Clanker"
+
+let homeWorkers = "I love doing homeWork, but today we had \(homeWorkPages) pages of homeowork it was so tiring, first I put my name down \(studentName), and it was about my lover \(Lover)"
+
+let constants = "Declaring string constants"
+let unicode = "Unicode characters (😎)"
+let combining = "Combining strings using +"
+let interpolation = "String interpolation (aka Fill in the Blanks)"
+let escaping = "Escape characters for \"special powers\""
+let newline = "Making new lines"
+//:  - Experiment: Make a new string constant that lists the things you’ve learned about strings, with each item on a new line. Make sure you add the result to the playground page so that you can see the list properly.
+let DefiningStrings = " leanring how to delcare strings by using /declare"
+let putingStringsTogether = " We also learned how to put certain strings together to form sentences like hi!"
+
+let customerOrderOne = "fish"
+let customerOrderTwo = "risotto"
+let customerOrderThree = "soup"
+
+let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
+
+let tableOneResponse = "Yes, thank you!"
+
+/*:
+### Later that day:
+ 
+ 
+ Three other guests enter and place their orders:
+ */
+ 
+let customerOrderFour = "돌솥비빔밥"
+let customerOrderFive = "Pasztecik szczeciński"
+let customerOrderSix = "小笼包"
+
+/*:
+ The server speaks all of these languages and confidently repeats the orders back to the group.
+
+ - callout(Exercise): 
+ Make sure the server repeats the order correctly *without* copying and pasting or retyping any of the orders.
+ */
+let serverResponseToTableTwo = "Let me make sure I've got this right: \(customerOrderFour), \(customerOrderFive), \(customerOrderSix) "
+
+let tableTwoResponse = "Perfect, merci bien."
+
+let schoolName = "Aquinas"
+let refrain = "The  \(schoolName)is the flyest and the best in the west"
+
+let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
+
+let Mb = 150
+let gigabyte = 1000
+let fullStorage = 3000
+let gigaBtyeMax =   Mb * 33 + 50
+
+"Hello, world!"
+print("Hello, world!")
+//: Numbers and calculations:
+8
+print(8)
+7 + 11
+print(7 + 11)
+//: String expressions:
+"Have you seen" + "..." + "nevermind."
+print("Have you seen" + "..." + "nevermind.")
+//: Constants:
+let authorName = "Nate Hitters"
+print(authorName)
+let bookTitle = "Jemima Puddleduck"
+print(bookTitle)
+//: Variables (you'll learn about these in the next lesson):
+var favoriteCookie = "chocolate chip"
+print("My favorite type of cookie is \(favoriteCookie).")
+favoriteCookie = "double chocolate chip"
+print("Wait! I forgot about \(favoriteCookie). That one is even better.")
+/*:
+ The result of whatever’s inside the parentheses will appear in the console.
+
+ - Experiment: Look for the following statements in the results sidebar, then make each statement print to the console, following the example.\
+Before:\
+`authorName`\
+After:\
+`print(authorName)`
+ */
+authorName
+"authorName"
+"Did you know that \(bookTitle) was written by \(authorName)?"
+/*:
+  _Copyright © 2021 Apple Inc._
+ 
+ _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+ 
+ _The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+ 
+ _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+
+[Previous](@previous)  |  page 18 of 18
+ */
