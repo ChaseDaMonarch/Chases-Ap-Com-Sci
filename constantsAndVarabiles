@@ -1,0 +1,142 @@
+// Declaring a constant
+let placeOfBirth = "New Jersey"
+
+// Declaring a variable
+var currentLocation = "New Jersey"
+
+//:  Once you've declared a variable, you can assign a new value to it:
+// Assigning a new value to a variable
+currentLocation = "California"
+//:  - Experiment: Below, add a line of code that assigns a new value to `currentLocation`:
+// Assign a new value
+currentLocation = "Texas"
+
+var score = 0
+//: If the player scores ten points, you can update the score:
+score = 10
+//: Now the player scores another five points, so you can update the score again:
+score = 15
+//: This is nice, but it would be nicer to use the existing value of `score` when calculating the new value. To add another five points, you can do this:
+score = score + 5
+/*:
+It might seem strangely circular to set a value to equal itself plus something else, as if you're both setting a value and changing it in a single step, but that isn't exactly what's happening. Even though it’s a single line of code, Swift evaluates the statement in two different steps.
+
+The right side of the assignment is calculated first, as if it were written on its own in a playground. However, just doing a calculation with a variable doesn't change its value:
+ */
+score + 5
+score
+score + 3
+score
+//: But when a calculation is on the right side of an assignment, the variable stores the calculation's result and takes on a brand new value:
+score = score + 5
+score = score + 3
+/*:
+ - Experiment: What do you think the value of `score` would be after these lines? Try it and find out!
+
+```
+ score = 5
+ score = score + score
+```
+ */
+ score =  5
+score = score + score
+
+// Value is initially zero
+var score = 0
+
+// Take the current value of `score`, add 2, assign the result to `score` as its new value
+score += 2
+/*:
+ This type of operation happens often enough that Swift has a special operator `+=`. This shorthand merges addition (`+`) and assignment (`=`) into one combined operation.
+
+The following line of code:
+ 
+`score = score + 2`
+ 
+has the same effect as:
+ 
+`score += 2`
+
+ - Experiment: Replace the line of code `score = score + 2` above using `+=` instead. Note that the result in the results bar is the same. To add more points to the game score, add a few more lines of code using the `+=` operator.
+
+#### Compound Assignment
+ The formal name for this kind of operator is a _compound assignment_ operator. The `+=` operator not only works for numbers, but anywhere you can use the addition operator `+`.
+ 
+ For example, you can use the `+=` operator with strings:
+ */
+var greeting = ""
+greeting += "Hello"
+greeting += "Salutations"
+greeting += "World"
+//:  - Experiment: Try building up the statement “Compound assignment is useful” using compound assignment and the following constants. The first part of the statement is done for you:
+let word1 = "Compound"
+let word2 = "assignment"
+let word3 = "is"
+let word4 = "useful"
+let space = " "
+
+var statement = ""
+statement += word1 + space + word2 + space + word3 + space + word4
+
+//:  Compound assignment works with all the mathematical operators, even the remainder operator. Use the `*=` operator to create the powers of two up to two to the 10th:
+var powerOfTwo = 1
+powerOfTwo = 5
+powerOfTwo *= 2
+
+var friendBeverageChoice = "coffee"
+
+driveAcrossTown()
+buyACoffeeMaker()
+//:  Depending how long you're gone, you have no way of knowing whether your friend will change their mind before you get back.
+friendBeverageChoice = "tea"
+
+findCoffeeGrinder()
+
+friendBeverageChoice = "water"
+friendBeverageChoice = "sparkling water"
+friendBeverageChoice = "plain water"
+
+findCoffeeBeans()
+driveHome()
+setUpCoffeeGrinder()
+
+friendBeverageChoice = "nothing 😴"
+grindBeans()
+makeFriendDrinkCoffee()
+
+
+let eggs = "Eggs"
+let milk = "Milk"
+let cheese = "Cheese"
+let bread = "Bread"
+let rice = "Rice"
+let newLine = "\n"
+var shoppingList = ""
+shoppingList = eggs + newLine + milk + newLine + cheese + newLine + bread + newLine + rice
+
+var scoreBoard = 501
+var roundedScore = 0
+roundedScore += 20
+roundedScore += 13
+roundedScore += 17
+scoreBoard = scoreBoard - roundedScore
+
+
+print ("You suck bum clanker ahhhh")
+roundedScore += 20
+roundedScore += 13
+roundedScore += 17
+scoreBoard = scoreBoard - roundedScore
+
+
+print ("You suck bum clanker ahhhh")
+roundedScore += 20
+roundedScore += 13
+roundedScore += 17
+scoreBoard = scoreBoard - roundedScore
+
+
+print ("You suck bum clanker ahhhh")
+
+
+roundedScore = 0
